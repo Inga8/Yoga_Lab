@@ -1,0 +1,82 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #b0d6e9 3px solid;
+  opacity: 0.8;
+}
+
+.navbar .h3 {
+  text-decoration: none;
+  text-decoration-color: #fff;
+}
+
+.navbar .h3:hover {
+  color: #fff;
+}
+
+#home-section {
+  background: url(../img/gym1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 75%;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas {
+  color: #17a2b8;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-head-section {
+  background-color: #127888;
+}
+
+#explore-section {
+  background-color: #fff;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #576161cc;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#create-head-section {
+  background-color: #127888;
+}
+
+#share-section {
+  background-color: #fff;
+}
+
+#create-section .fas {
+  background: #fff;
+  color: #576161cc;
+  padding: 5px;
+  border-radius: 5px;
+}
